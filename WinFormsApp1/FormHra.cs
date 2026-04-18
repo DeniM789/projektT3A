@@ -40,6 +40,26 @@ namespace WinFormsApp1
 
             int chyby = 10 - zivoty;
 
+            if (chyby >= 1)
+                g.DrawLine(p, 20, 230, 150, 230);
+            if (chyby >= 2)
+                g.DrawLine(p, 50, 230, 50, 20);
+            if (chyby >= 3)
+                g.DrawLine(p, 50, 20, 120, 20);
+            if (chyby >= 4)
+                g.DrawLine(p, 120, 20, 120, 40);
+            if (chyby >= 5)
+                g.DrawEllipse(p, 95, 40, 50, 50);
+            if (chyby >= 6)
+                g.DrawLine(p, 120, 90, 120, 150);
+            if (chyby >= 7)
+                g.DrawLine(p, 120, 110, 90, 130);
+            if (chyby >= 8)
+                g.DrawLine(p, 120, 110, 150, 130);
+            if (chyby >= 9)
+                g.DrawLine(p, 120, 150, 90, 190);
+            if (chyby >= 10)
+                g.DrawLine(p, 120, 150, 150, 190);
         }
 
 
