@@ -58,6 +58,7 @@
             btnD = new Button();
             btnS = new Button();
             btnA = new Button();
+            btnNovaHra = new Button();
             pnlKlavesnice.SuspendLayout();
             SuspendLayout();
             // 
@@ -382,11 +383,22 @@
             btnA.UseVisualStyleBackColor = true;
             btnA.Click += Pismeno_Click;
             // 
+            // btnNovaHra
+            // 
+            btnNovaHra.Location = new Point(772, 179);
+            btnNovaHra.Name = "btnNovaHra";
+            btnNovaHra.Size = new Size(75, 23);
+            btnNovaHra.TabIndex = 4;
+            btnNovaHra.Text = "button1";
+            btnNovaHra.UseVisualStyleBackColor = true;
+            btnNovaHra.Click += btnNovaHra_Click;
+            // 
             // FormHra
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(973, 546);
+            Controls.Add(btnNovaHra);
             Controls.Add(pnlKlavesnice);
             Controls.Add(lblZivoty);
             Controls.Add(lblSlovo);
@@ -431,5 +443,6 @@
         private Button btnL;
         private Button btnK;
         private Button btnM;
+        private Button btnNovaHra;
     }
 }

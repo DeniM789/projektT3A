@@ -106,7 +106,6 @@ namespace WinFormsApp1
             AktualizujSlovo();
             pnlSibenice.Invalidate();
 
-
             bool vyhra = true;
 
             for (int i = 0; i < hadaneSlovo.Length; i++)
@@ -130,6 +129,31 @@ namespace WinFormsApp1
 
         }
 
+        void NovaHra()
+        {
+            Random rnd = new Random();
+            slovo = slova[rnd.Next(slova.Length)];
 
+            zivoty = 10;
+            konecHry = false;
+
+            hadaneSlovo = new char[slovo.Length];
+            for (int i = 0; i < slovo.Length; i++)
+                hadaneSlovo[i] = '_';
+
+            foreach (Control c in pnlKlavesnice.Controls)
+            {
+                if (c is Button)
+                    c.Enabled = true;
+            }
+
+            AktualizujSlovo();
+            pnlSibenice.Invalidate();
+        }
+
+        private void btnNovaHra_Click(object sender, EventArgs e)
+        {
+            NovaHra();
+        }
     }
 }
