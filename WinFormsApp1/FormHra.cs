@@ -12,8 +12,9 @@ namespace WinFormsApp1
 {
     public partial class FormHra : Form
     {
+        string[] slova = { "skola", "program", "csharp", "pocitac", "formular" };
+        string slovo;
 
-        string slovo = "skola";
         char[] hadaneSlovo;
         int zivoty = 10;
 
@@ -24,6 +25,10 @@ namespace WinFormsApp1
 
         private void FormHra_Load(object sender, EventArgs e)
         {
+
+            Random rnd = new Random();
+            slovo = slova[rnd.Next(slova.Length)];
+
             hadaneSlovo = new char[slovo.Length];
 
             for (int i = 0; i < slovo.Length; i++)
