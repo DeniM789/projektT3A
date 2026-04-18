@@ -17,6 +17,7 @@ namespace WinFormsApp1
 
         char[] hadaneSlovo;
         int zivoty = 10;
+        bool konecHry = false;
 
         public FormHra()
         {
@@ -80,6 +81,10 @@ namespace WinFormsApp1
 
         private void Pismeno_Click(object sender, EventArgs e)
         {
+
+            if (konecHry)
+                return;
+
             Button b = sender as Button;
             b.Enabled = false;
 
@@ -113,12 +118,14 @@ namespace WinFormsApp1
             if (vyhra)
             {
                 MessageBox.Show("Vyhrál jsi!");
+                konecHry = true;
             }
 
 
             if (zivoty <= 0)
             {
                 MessageBox.Show("Prohrál jsi!");
+                konecHry = true;
             }
 
         }
