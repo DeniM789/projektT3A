@@ -155,5 +155,10 @@ namespace WinFormsApp1
         {
             NovaHra();
         }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
