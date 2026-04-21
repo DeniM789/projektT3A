@@ -38,7 +38,7 @@
             // button1
             // 
             button1.BackColor = Color.DarkSlateGray;
-            button1.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            button1.Font = new Font("Castellar", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ControlLightLight;
             button1.Location = new Point(28, 149);
             button1.Name = "button1";
@@ -51,7 +51,7 @@
             // button2
             // 
             button2.BackColor = Color.DarkSlateGray;
-            button2.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            button2.Font = new Font("Castellar", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.ForeColor = SystemColors.ControlLightLight;
             button2.Location = new Point(28, 219);
             button2.Name = "button2";
@@ -64,7 +64,7 @@
             // button3
             // 
             button3.BackColor = Color.DarkSlateGray;
-            button3.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            button3.Font = new Font("Castellar", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button3.ForeColor = SystemColors.ControlLightLight;
             button3.Location = new Point(28, 289);
             button3.Name = "button3";
@@ -79,11 +79,11 @@
             label1.AutoSize = true;
             label1.BackColor = Color.DarkSlateGray;
             label1.BorderStyle = BorderStyle.Fixed3D;
-            label1.Font = new Font("Verdana", 35.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Castellar", 35.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ControlLightLight;
             label1.Location = new Point(28, 76);
             label1.Name = "label1";
-            label1.Size = new Size(248, 59);
+            label1.Size = new Size(258, 59);
             label1.TabIndex = 3;
             label1.Text = "Šibenice";
             // 

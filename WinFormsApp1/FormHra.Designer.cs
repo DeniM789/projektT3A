@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHra));
             pnlSibenice = new Panel();
             lblSlovo = new Label();
             lblZivoty = new Label();
@@ -65,9 +66,9 @@
             // 
             // pnlSibenice
             // 
-            pnlSibenice.BackColor = Color.CadetBlue;
+            pnlSibenice.BackColor = Color.DarkSlateGray;
             pnlSibenice.BorderStyle = BorderStyle.Fixed3D;
-            pnlSibenice.Location = new Point(24, 12);
+            pnlSibenice.Location = new Point(12, 12);
             pnlSibenice.Name = "pnlSibenice";
             pnlSibenice.Size = new Size(246, 287);
             pnlSibenice.TabIndex = 0;
@@ -97,7 +98,7 @@
             // 
             // pnlKlavesnice
             // 
-            pnlKlavesnice.BackColor = Color.CadetBlue;
+            pnlKlavesnice.BackColor = Color.DarkSlateGray;
             pnlKlavesnice.BorderStyle = BorderStyle.Fixed3D;
             pnlKlavesnice.Controls.Add(btnM);
             pnlKlavesnice.Controls.Add(btnN);
@@ -125,20 +126,20 @@
             pnlKlavesnice.Controls.Add(btnD);
             pnlKlavesnice.Controls.Add(btnS);
             pnlKlavesnice.Controls.Add(btnA);
-            pnlKlavesnice.Location = new Point(24, 321);
+            pnlKlavesnice.Location = new Point(136, 321);
             pnlKlavesnice.Name = "pnlKlavesnice";
-            pnlKlavesnice.Size = new Size(922, 202);
+            pnlKlavesnice.Size = new Size(716, 202);
             pnlKlavesnice.TabIndex = 3;
             // 
             // btnM
             // 
-            btnM.BackColor = Color.DarkSlateGray;
+            btnM.BackColor = Color.Black;
             btnM.FlatAppearance.BorderColor = Color.White;
-            btnM.FlatAppearance.BorderSize = 3;
+            btnM.FlatAppearance.BorderSize = 2;
             btnM.FlatStyle = FlatStyle.Flat;
-            btnM.Font = new Font("Verdana", 12F);
+            btnM.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnM.ForeColor = SystemColors.ControlLightLight;
-            btnM.Location = new Point(597, 135);
+            btnM.Location = new Point(491, 131);
             btnM.Name = "btnM";
             btnM.Size = new Size(50, 50);
             btnM.TabIndex = 25;
@@ -148,13 +149,13 @@
             // 
             // btnN
             // 
-            btnN.BackColor = Color.DarkSlateGray;
+            btnN.BackColor = Color.Black;
             btnN.FlatAppearance.BorderColor = Color.White;
-            btnN.FlatAppearance.BorderSize = 3;
+            btnN.FlatAppearance.BorderSize = 2;
             btnN.FlatStyle = FlatStyle.Flat;
-            btnN.Font = new Font("Verdana", 12F);
+            btnN.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnN.ForeColor = SystemColors.ControlLightLight;
-            btnN.Location = new Point(541, 135);
+            btnN.Location = new Point(435, 131);
             btnN.Name = "btnN";
             btnN.Size = new Size(50, 50);
             btnN.TabIndex = 24;
@@ -164,13 +165,13 @@
             // 
             // btnB
             // 
-            btnB.BackColor = Color.DarkSlateGray;
+            btnB.BackColor = Color.Black;
             btnB.FlatAppearance.BorderColor = Color.White;
-            btnB.FlatAppearance.BorderSize = 3;
+            btnB.FlatAppearance.BorderSize = 2;
             btnB.FlatStyle = FlatStyle.Flat;
-            btnB.Font = new Font("Verdana", 12F);
+            btnB.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnB.ForeColor = SystemColors.ControlLightLight;
-            btnB.Location = new Point(485, 135);
+            btnB.Location = new Point(379, 131);
             btnB.Name = "btnB";
             btnB.Size = new Size(50, 50);
             btnB.TabIndex = 23;
@@ -180,13 +181,13 @@
             // 
             // btnV
             // 
-            btnV.BackColor = Color.DarkSlateGray;
+            btnV.BackColor = Color.Black;
             btnV.FlatAppearance.BorderColor = Color.White;
-            btnV.FlatAppearance.BorderSize = 3;
+            btnV.FlatAppearance.BorderSize = 2;
             btnV.FlatStyle = FlatStyle.Flat;
-            btnV.Font = new Font("Verdana", 12F);
+            btnV.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnV.ForeColor = SystemColors.ControlLightLight;
-            btnV.Location = new Point(429, 135);
+            btnV.Location = new Point(323, 131);
             btnV.Name = "btnV";
             btnV.Size = new Size(50, 50);
             btnV.TabIndex = 22;
@@ -196,13 +197,13 @@
             // 
             // btnC
             // 
-            btnC.BackColor = Color.DarkSlateGray;
+            btnC.BackColor = Color.Black;
             btnC.FlatAppearance.BorderColor = Color.White;
-            btnC.FlatAppearance.BorderSize = 3;
+            btnC.FlatAppearance.BorderSize = 2;
             btnC.FlatStyle = FlatStyle.Flat;
-            btnC.Font = new Font("Verdana", 12F);
+            btnC.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnC.ForeColor = SystemColors.ControlLightLight;
-            btnC.Location = new Point(372, 135);
+            btnC.Location = new Point(266, 131);
             btnC.Name = "btnC";
             btnC.Size = new Size(50, 50);
             btnC.TabIndex = 21;
@@ -212,13 +213,13 @@
             // 
             // btnX
             // 
-            btnX.BackColor = Color.DarkSlateGray;
+            btnX.BackColor = Color.Black;
             btnX.FlatAppearance.BorderColor = Color.White;
-            btnX.FlatAppearance.BorderSize = 3;
+            btnX.FlatAppearance.BorderSize = 2;
             btnX.FlatStyle = FlatStyle.Flat;
-            btnX.Font = new Font("Verdana", 12F);
+            btnX.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnX.ForeColor = SystemColors.ControlLightLight;
-            btnX.Location = new Point(316, 135);
+            btnX.Location = new Point(210, 131);
             btnX.Name = "btnX";
             btnX.Size = new Size(50, 50);
             btnX.TabIndex = 20;
@@ -228,13 +229,13 @@
             // 
             // btnZ
             // 
-            btnZ.BackColor = Color.DarkSlateGray;
+            btnZ.BackColor = Color.Black;
             btnZ.FlatAppearance.BorderColor = Color.White;
-            btnZ.FlatAppearance.BorderSize = 3;
+            btnZ.FlatAppearance.BorderSize = 2;
             btnZ.FlatStyle = FlatStyle.Flat;
-            btnZ.Font = new Font("Verdana", 12F);
+            btnZ.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnZ.ForeColor = SystemColors.ControlLightLight;
-            btnZ.Location = new Point(260, 135);
+            btnZ.Location = new Point(154, 131);
             btnZ.Name = "btnZ";
             btnZ.Size = new Size(50, 50);
             btnZ.TabIndex = 19;
@@ -244,13 +245,13 @@
             // 
             // btnP
             // 
-            btnP.BackColor = Color.DarkSlateGray;
+            btnP.BackColor = Color.Black;
             btnP.FlatAppearance.BorderColor = Color.White;
-            btnP.FlatAppearance.BorderSize = 3;
+            btnP.FlatAppearance.BorderSize = 2;
             btnP.FlatStyle = FlatStyle.Flat;
-            btnP.Font = new Font("Verdana", 12F);
+            btnP.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnP.ForeColor = SystemColors.ControlLightLight;
-            btnP.Location = new Point(681, 23);
+            btnP.Location = new Point(575, 19);
             btnP.Name = "btnP";
             btnP.Size = new Size(50, 50);
             btnP.TabIndex = 18;
@@ -260,13 +261,13 @@
             // 
             // btnO
             // 
-            btnO.BackColor = Color.DarkSlateGray;
+            btnO.BackColor = Color.Black;
             btnO.FlatAppearance.BorderColor = Color.White;
-            btnO.FlatAppearance.BorderSize = 3;
+            btnO.FlatAppearance.BorderSize = 2;
             btnO.FlatStyle = FlatStyle.Flat;
-            btnO.Font = new Font("Verdana", 12F);
+            btnO.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnO.ForeColor = SystemColors.ControlLightLight;
-            btnO.Location = new Point(625, 23);
+            btnO.Location = new Point(519, 19);
             btnO.Name = "btnO";
             btnO.Size = new Size(50, 50);
             btnO.TabIndex = 17;
@@ -276,13 +277,13 @@
             // 
             // btnI
             // 
-            btnI.BackColor = Color.DarkSlateGray;
+            btnI.BackColor = Color.Black;
             btnI.FlatAppearance.BorderColor = Color.White;
-            btnI.FlatAppearance.BorderSize = 3;
+            btnI.FlatAppearance.BorderSize = 2;
             btnI.FlatStyle = FlatStyle.Flat;
-            btnI.Font = new Font("Verdana", 12F);
+            btnI.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnI.ForeColor = SystemColors.ControlLightLight;
-            btnI.Location = new Point(569, 23);
+            btnI.Location = new Point(463, 19);
             btnI.Name = "btnI";
             btnI.Size = new Size(50, 50);
             btnI.TabIndex = 16;
@@ -292,13 +293,13 @@
             // 
             // btnU
             // 
-            btnU.BackColor = Color.DarkSlateGray;
+            btnU.BackColor = Color.Black;
             btnU.FlatAppearance.BorderColor = Color.White;
-            btnU.FlatAppearance.BorderSize = 3;
+            btnU.FlatAppearance.BorderSize = 2;
             btnU.FlatStyle = FlatStyle.Flat;
-            btnU.Font = new Font("Verdana", 12F);
+            btnU.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnU.ForeColor = SystemColors.ControlLightLight;
-            btnU.Location = new Point(513, 23);
+            btnU.Location = new Point(407, 19);
             btnU.Name = "btnU";
             btnU.Size = new Size(50, 50);
             btnU.TabIndex = 15;
@@ -308,13 +309,13 @@
             // 
             // btnY
             // 
-            btnY.BackColor = Color.DarkSlateGray;
+            btnY.BackColor = Color.Black;
             btnY.FlatAppearance.BorderColor = Color.White;
-            btnY.FlatAppearance.BorderSize = 3;
+            btnY.FlatAppearance.BorderSize = 2;
             btnY.FlatStyle = FlatStyle.Flat;
-            btnY.Font = new Font("Verdana", 12F);
+            btnY.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnY.ForeColor = SystemColors.ControlLightLight;
-            btnY.Location = new Point(457, 23);
+            btnY.Location = new Point(351, 19);
             btnY.Name = "btnY";
             btnY.Size = new Size(50, 50);
             btnY.TabIndex = 14;
@@ -324,13 +325,13 @@
             // 
             // btnT
             // 
-            btnT.BackColor = Color.DarkSlateGray;
+            btnT.BackColor = Color.Black;
             btnT.FlatAppearance.BorderColor = Color.White;
-            btnT.FlatAppearance.BorderSize = 3;
+            btnT.FlatAppearance.BorderSize = 2;
             btnT.FlatStyle = FlatStyle.Flat;
-            btnT.Font = new Font("Verdana", 12F);
+            btnT.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnT.ForeColor = SystemColors.ControlLightLight;
-            btnT.Location = new Point(401, 23);
+            btnT.Location = new Point(295, 19);
             btnT.Name = "btnT";
             btnT.Size = new Size(50, 50);
             btnT.TabIndex = 13;
@@ -340,13 +341,13 @@
             // 
             // btnR
             // 
-            btnR.BackColor = Color.DarkSlateGray;
+            btnR.BackColor = Color.Black;
             btnR.FlatAppearance.BorderColor = Color.White;
-            btnR.FlatAppearance.BorderSize = 3;
+            btnR.FlatAppearance.BorderSize = 2;
             btnR.FlatStyle = FlatStyle.Flat;
-            btnR.Font = new Font("Verdana", 12F);
+            btnR.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnR.ForeColor = SystemColors.ControlLightLight;
-            btnR.Location = new Point(345, 23);
+            btnR.Location = new Point(239, 19);
             btnR.Name = "btnR";
             btnR.Size = new Size(50, 50);
             btnR.TabIndex = 12;
@@ -356,13 +357,13 @@
             // 
             // btnE
             // 
-            btnE.BackColor = Color.DarkSlateGray;
+            btnE.BackColor = Color.Black;
             btnE.FlatAppearance.BorderColor = Color.White;
-            btnE.FlatAppearance.BorderSize = 3;
+            btnE.FlatAppearance.BorderSize = 2;
             btnE.FlatStyle = FlatStyle.Flat;
-            btnE.Font = new Font("Verdana", 12F);
+            btnE.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnE.ForeColor = SystemColors.ControlLightLight;
-            btnE.Location = new Point(289, 23);
+            btnE.Location = new Point(183, 19);
             btnE.Name = "btnE";
             btnE.Size = new Size(50, 50);
             btnE.TabIndex = 11;
@@ -372,13 +373,13 @@
             // 
             // btnW
             // 
-            btnW.BackColor = Color.DarkSlateGray;
+            btnW.BackColor = Color.Black;
             btnW.FlatAppearance.BorderColor = Color.White;
-            btnW.FlatAppearance.BorderSize = 3;
+            btnW.FlatAppearance.BorderSize = 2;
             btnW.FlatStyle = FlatStyle.Flat;
-            btnW.Font = new Font("Verdana", 12F);
+            btnW.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnW.ForeColor = SystemColors.ControlLightLight;
-            btnW.Location = new Point(233, 23);
+            btnW.Location = new Point(127, 19);
             btnW.Name = "btnW";
             btnW.Size = new Size(50, 50);
             btnW.TabIndex = 10;
@@ -388,13 +389,13 @@
             // 
             // btnQ
             // 
-            btnQ.BackColor = Color.DarkSlateGray;
+            btnQ.BackColor = Color.Black;
             btnQ.FlatAppearance.BorderColor = Color.White;
-            btnQ.FlatAppearance.BorderSize = 3;
+            btnQ.FlatAppearance.BorderSize = 2;
             btnQ.FlatStyle = FlatStyle.Flat;
-            btnQ.Font = new Font("Verdana", 12F);
+            btnQ.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnQ.ForeColor = SystemColors.ControlLightLight;
-            btnQ.Location = new Point(177, 23);
+            btnQ.Location = new Point(71, 19);
             btnQ.Name = "btnQ";
             btnQ.Size = new Size(50, 50);
             btnQ.TabIndex = 9;
@@ -404,13 +405,13 @@
             // 
             // btnL
             // 
-            btnL.BackColor = Color.DarkSlateGray;
+            btnL.BackColor = Color.Black;
             btnL.FlatAppearance.BorderColor = Color.White;
-            btnL.FlatAppearance.BorderSize = 3;
+            btnL.FlatAppearance.BorderSize = 2;
             btnL.FlatStyle = FlatStyle.Flat;
-            btnL.Font = new Font("Verdana", 12F);
+            btnL.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnL.ForeColor = SystemColors.ControlLightLight;
-            btnL.Location = new Point(653, 79);
+            btnL.Location = new Point(547, 75);
             btnL.Name = "btnL";
             btnL.Size = new Size(50, 50);
             btnL.TabIndex = 8;
@@ -420,13 +421,13 @@
             // 
             // btnK
             // 
-            btnK.BackColor = Color.DarkSlateGray;
+            btnK.BackColor = Color.Black;
             btnK.FlatAppearance.BorderColor = Color.White;
-            btnK.FlatAppearance.BorderSize = 3;
+            btnK.FlatAppearance.BorderSize = 2;
             btnK.FlatStyle = FlatStyle.Flat;
-            btnK.Font = new Font("Verdana", 12F);
+            btnK.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnK.ForeColor = SystemColors.ControlLightLight;
-            btnK.Location = new Point(597, 79);
+            btnK.Location = new Point(491, 75);
             btnK.Name = "btnK";
             btnK.Size = new Size(50, 50);
             btnK.TabIndex = 7;
@@ -436,13 +437,13 @@
             // 
             // btnJ
             // 
-            btnJ.BackColor = Color.DarkSlateGray;
+            btnJ.BackColor = Color.Black;
             btnJ.FlatAppearance.BorderColor = Color.White;
-            btnJ.FlatAppearance.BorderSize = 3;
+            btnJ.FlatAppearance.BorderSize = 2;
             btnJ.FlatStyle = FlatStyle.Flat;
-            btnJ.Font = new Font("Verdana", 12F);
+            btnJ.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnJ.ForeColor = SystemColors.ControlLightLight;
-            btnJ.Location = new Point(541, 79);
+            btnJ.Location = new Point(435, 75);
             btnJ.Name = "btnJ";
             btnJ.Size = new Size(50, 50);
             btnJ.TabIndex = 6;
@@ -452,13 +453,13 @@
             // 
             // btnH
             // 
-            btnH.BackColor = Color.DarkSlateGray;
+            btnH.BackColor = Color.Black;
             btnH.FlatAppearance.BorderColor = Color.White;
-            btnH.FlatAppearance.BorderSize = 3;
+            btnH.FlatAppearance.BorderSize = 2;
             btnH.FlatStyle = FlatStyle.Flat;
-            btnH.Font = new Font("Verdana", 12F);
+            btnH.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnH.ForeColor = SystemColors.ControlLightLight;
-            btnH.Location = new Point(485, 79);
+            btnH.Location = new Point(379, 75);
             btnH.Name = "btnH";
             btnH.Size = new Size(50, 50);
             btnH.TabIndex = 5;
@@ -468,13 +469,13 @@
             // 
             // btnG
             // 
-            btnG.BackColor = Color.DarkSlateGray;
+            btnG.BackColor = Color.Black;
             btnG.FlatAppearance.BorderColor = Color.White;
-            btnG.FlatAppearance.BorderSize = 3;
+            btnG.FlatAppearance.BorderSize = 2;
             btnG.FlatStyle = FlatStyle.Flat;
-            btnG.Font = new Font("Verdana", 12F);
+            btnG.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnG.ForeColor = SystemColors.ControlLightLight;
-            btnG.Location = new Point(429, 79);
+            btnG.Location = new Point(323, 75);
             btnG.Name = "btnG";
             btnG.Size = new Size(50, 50);
             btnG.TabIndex = 4;
@@ -484,13 +485,13 @@
             // 
             // btnF
             // 
-            btnF.BackColor = Color.DarkSlateGray;
+            btnF.BackColor = Color.Black;
             btnF.FlatAppearance.BorderColor = Color.White;
-            btnF.FlatAppearance.BorderSize = 3;
+            btnF.FlatAppearance.BorderSize = 2;
             btnF.FlatStyle = FlatStyle.Flat;
-            btnF.Font = new Font("Verdana", 12F);
+            btnF.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnF.ForeColor = SystemColors.ControlLightLight;
-            btnF.Location = new Point(372, 79);
+            btnF.Location = new Point(266, 75);
             btnF.Name = "btnF";
             btnF.Size = new Size(50, 50);
             btnF.TabIndex = 3;
@@ -500,13 +501,13 @@
             // 
             // btnD
             // 
-            btnD.BackColor = Color.DarkSlateGray;
+            btnD.BackColor = Color.Black;
             btnD.FlatAppearance.BorderColor = Color.White;
-            btnD.FlatAppearance.BorderSize = 3;
+            btnD.FlatAppearance.BorderSize = 2;
             btnD.FlatStyle = FlatStyle.Flat;
-            btnD.Font = new Font("Verdana", 12F);
+            btnD.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnD.ForeColor = SystemColors.ControlLightLight;
-            btnD.Location = new Point(316, 79);
+            btnD.Location = new Point(210, 75);
             btnD.Name = "btnD";
             btnD.Size = new Size(50, 50);
             btnD.TabIndex = 2;
@@ -516,13 +517,13 @@
             // 
             // btnS
             // 
-            btnS.BackColor = Color.DarkSlateGray;
+            btnS.BackColor = Color.Black;
             btnS.FlatAppearance.BorderColor = Color.White;
-            btnS.FlatAppearance.BorderSize = 3;
+            btnS.FlatAppearance.BorderSize = 2;
             btnS.FlatStyle = FlatStyle.Flat;
-            btnS.Font = new Font("Verdana", 12F);
+            btnS.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnS.ForeColor = SystemColors.ControlLightLight;
-            btnS.Location = new Point(260, 79);
+            btnS.Location = new Point(154, 75);
             btnS.Name = "btnS";
             btnS.Size = new Size(50, 50);
             btnS.TabIndex = 1;
@@ -532,13 +533,13 @@
             // 
             // btnA
             // 
-            btnA.BackColor = Color.DarkSlateGray;
+            btnA.BackColor = Color.Black;
             btnA.FlatAppearance.BorderColor = Color.White;
-            btnA.FlatAppearance.BorderSize = 3;
+            btnA.FlatAppearance.BorderSize = 2;
             btnA.FlatStyle = FlatStyle.Flat;
-            btnA.Font = new Font("Verdana", 12F);
+            btnA.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnA.ForeColor = SystemColors.ControlLightLight;
-            btnA.Location = new Point(204, 79);
+            btnA.Location = new Point(98, 75);
             btnA.Name = "btnA";
             btnA.Size = new Size(50, 50);
             btnA.TabIndex = 0;
@@ -548,7 +549,7 @@
             // 
             // btnNovaHra
             // 
-            btnNovaHra.BackColor = Color.CadetBlue;
+            btnNovaHra.BackColor = Color.DarkSlateGray;
             btnNovaHra.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 238);
             btnNovaHra.ForeColor = SystemColors.ControlLightLight;
             btnNovaHra.Location = new Point(772, 138);
@@ -561,7 +562,7 @@
             // 
             // btnMenu
             // 
-            btnMenu.BackColor = Color.CadetBlue;
+            btnMenu.BackColor = Color.DarkSlateGray;
             btnMenu.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 238);
             btnMenu.ForeColor = SystemColors.ControlLightLight;
             btnMenu.Location = new Point(772, 201);
@@ -577,6 +578,8 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkSlateGray;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(973, 546);
             Controls.Add(btnMenu);
             Controls.Add(btnNovaHra);
@@ -585,6 +588,7 @@
             Controls.Add(lblSlovo);
             Controls.Add(pnlSibenice);
             Name = "FormHra";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "FormHra";
             Load += FormHra_Load;
             pnlKlavesnice.ResumeLayout(false);
