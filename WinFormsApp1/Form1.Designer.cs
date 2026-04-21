@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -36,41 +37,53 @@
             // 
             // button1
             // 
-            button1.Location = new Point(28, 235);
+            button1.BackColor = Color.DarkSlateGray;
+            button1.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            button1.ForeColor = SystemColors.ControlLightLight;
+            button1.Location = new Point(28, 149);
             button1.Name = "button1";
             button1.Size = new Size(161, 64);
             button1.TabIndex = 0;
             button1.Text = "Hrát";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(28, 305);
+            button2.BackColor = Color.DarkSlateGray;
+            button2.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            button2.ForeColor = SystemColors.ControlLightLight;
+            button2.Location = new Point(28, 219);
             button2.Name = "button2";
-            button2.Size = new Size(161, 58);
+            button2.Size = new Size(161, 64);
             button2.TabIndex = 1;
             button2.Text = "Pravidla";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(28, 369);
+            button3.BackColor = Color.DarkSlateGray;
+            button3.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            button3.ForeColor = SystemColors.ControlLightLight;
+            button3.Location = new Point(28, 289);
             button3.Name = "button3";
-            button3.Size = new Size(161, 54);
+            button3.Size = new Size(161, 64);
             button3.TabIndex = 2;
             button3.Text = "Konec";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 35F, FontStyle.Bold);
-            label1.Location = new Point(28, 147);
+            label1.BackColor = Color.DarkSlateGray;
+            label1.BorderStyle = BorderStyle.Fixed3D;
+            label1.Font = new Font("Verdana", 35.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ControlLightLight;
+            label1.Location = new Point(28, 76);
             label1.Name = "label1";
-            label1.Size = new Size(209, 62);
+            label1.Size = new Size(248, 59);
             label1.TabIndex = 3;
             label1.Text = "Šibenice";
             // 
@@ -78,12 +91,15 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1021, 579);
             Controls.Add(label1);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
