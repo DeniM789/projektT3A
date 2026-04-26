@@ -67,10 +67,12 @@
             // pnlSibenice
             // 
             pnlSibenice.BackColor = Color.DarkSlateGray;
+            pnlSibenice.BackgroundImage = (Image)resources.GetObject("pnlSibenice.BackgroundImage");
+            pnlSibenice.BackgroundImageLayout = ImageLayout.Stretch;
             pnlSibenice.BorderStyle = BorderStyle.Fixed3D;
             pnlSibenice.Location = new Point(12, 12);
             pnlSibenice.Name = "pnlSibenice";
-            pnlSibenice.Size = new Size(246, 287);
+            pnlSibenice.Size = new Size(197, 287);
             pnlSibenice.TabIndex = 0;
             pnlSibenice.Paint += pnlSibenice_Paint;
             // 
@@ -98,7 +100,9 @@
             // 
             // pnlKlavesnice
             // 
-            pnlKlavesnice.BackColor = Color.DarkSlateGray;
+            pnlKlavesnice.BackColor = Color.SaddleBrown;
+            pnlKlavesnice.BackgroundImage = (Image)resources.GetObject("pnlKlavesnice.BackgroundImage");
+            pnlKlavesnice.BackgroundImageLayout = ImageLayout.Stretch;
             pnlKlavesnice.BorderStyle = BorderStyle.Fixed3D;
             pnlKlavesnice.Controls.Add(btnM);
             pnlKlavesnice.Controls.Add(btnN);
@@ -126,9 +130,9 @@
             pnlKlavesnice.Controls.Add(btnD);
             pnlKlavesnice.Controls.Add(btnS);
             pnlKlavesnice.Controls.Add(btnA);
-            pnlKlavesnice.Location = new Point(136, 321);
+            pnlKlavesnice.Location = new Point(108, 321);
             pnlKlavesnice.Name = "pnlKlavesnice";
-            pnlKlavesnice.Size = new Size(716, 202);
+            pnlKlavesnice.Size = new Size(773, 202);
             pnlKlavesnice.TabIndex = 3;
             // 
             // btnM
@@ -139,7 +143,7 @@
             btnM.FlatStyle = FlatStyle.Flat;
             btnM.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnM.ForeColor = SystemColors.ControlLightLight;
-            btnM.Location = new Point(491, 131);
+            btnM.Location = new Point(518, 130);
             btnM.Name = "btnM";
             btnM.Size = new Size(50, 50);
             btnM.TabIndex = 25;
@@ -155,7 +159,7 @@
             btnN.FlatStyle = FlatStyle.Flat;
             btnN.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnN.ForeColor = SystemColors.ControlLightLight;
-            btnN.Location = new Point(435, 131);
+            btnN.Location = new Point(462, 130);
             btnN.Name = "btnN";
             btnN.Size = new Size(50, 50);
             btnN.TabIndex = 24;
@@ -171,7 +175,7 @@
             btnB.FlatStyle = FlatStyle.Flat;
             btnB.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnB.ForeColor = SystemColors.ControlLightLight;
-            btnB.Location = new Point(379, 131);
+            btnB.Location = new Point(406, 130);
             btnB.Name = "btnB";
             btnB.Size = new Size(50, 50);
             btnB.TabIndex = 23;
@@ -187,7 +191,7 @@
             btnV.FlatStyle = FlatStyle.Flat;
             btnV.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnV.ForeColor = SystemColors.ControlLightLight;
-            btnV.Location = new Point(323, 131);
+            btnV.Location = new Point(350, 130);
             btnV.Name = "btnV";
             btnV.Size = new Size(50, 50);
             btnV.TabIndex = 22;
@@ -203,7 +207,7 @@
             btnC.FlatStyle = FlatStyle.Flat;
             btnC.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnC.ForeColor = SystemColors.ControlLightLight;
-            btnC.Location = new Point(266, 131);
+            btnC.Location = new Point(293, 130);
             btnC.Name = "btnC";
             btnC.Size = new Size(50, 50);
             btnC.TabIndex = 21;
@@ -219,7 +223,7 @@
             btnX.FlatStyle = FlatStyle.Flat;
             btnX.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnX.ForeColor = SystemColors.ControlLightLight;
-            btnX.Location = new Point(210, 131);
+            btnX.Location = new Point(237, 130);
             btnX.Name = "btnX";
             btnX.Size = new Size(50, 50);
             btnX.TabIndex = 20;
@@ -235,7 +239,7 @@
             btnZ.FlatStyle = FlatStyle.Flat;
             btnZ.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnZ.ForeColor = SystemColors.ControlLightLight;
-            btnZ.Location = new Point(154, 131);
+            btnZ.Location = new Point(181, 130);
             btnZ.Name = "btnZ";
             btnZ.Size = new Size(50, 50);
             btnZ.TabIndex = 19;
@@ -251,7 +255,7 @@
             btnP.FlatStyle = FlatStyle.Flat;
             btnP.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnP.ForeColor = SystemColors.ControlLightLight;
-            btnP.Location = new Point(575, 19);
+            btnP.Location = new Point(602, 18);
             btnP.Name = "btnP";
             btnP.Size = new Size(50, 50);
             btnP.TabIndex = 18;
@@ -267,7 +271,7 @@
             btnO.FlatStyle = FlatStyle.Flat;
             btnO.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnO.ForeColor = SystemColors.ControlLightLight;
-            btnO.Location = new Point(519, 19);
+            btnO.Location = new Point(546, 18);
             btnO.Name = "btnO";
             btnO.Size = new Size(50, 50);
             btnO.TabIndex = 17;
@@ -283,7 +287,7 @@
             btnI.FlatStyle = FlatStyle.Flat;
             btnI.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnI.ForeColor = SystemColors.ControlLightLight;
-            btnI.Location = new Point(463, 19);
+            btnI.Location = new Point(490, 18);
             btnI.Name = "btnI";
             btnI.Size = new Size(50, 50);
             btnI.TabIndex = 16;
@@ -299,7 +303,7 @@
             btnU.FlatStyle = FlatStyle.Flat;
             btnU.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnU.ForeColor = SystemColors.ControlLightLight;
-            btnU.Location = new Point(407, 19);
+            btnU.Location = new Point(434, 18);
             btnU.Name = "btnU";
             btnU.Size = new Size(50, 50);
             btnU.TabIndex = 15;
@@ -315,7 +319,7 @@
             btnY.FlatStyle = FlatStyle.Flat;
             btnY.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnY.ForeColor = SystemColors.ControlLightLight;
-            btnY.Location = new Point(351, 19);
+            btnY.Location = new Point(378, 18);
             btnY.Name = "btnY";
             btnY.Size = new Size(50, 50);
             btnY.TabIndex = 14;
@@ -331,7 +335,7 @@
             btnT.FlatStyle = FlatStyle.Flat;
             btnT.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnT.ForeColor = SystemColors.ControlLightLight;
-            btnT.Location = new Point(295, 19);
+            btnT.Location = new Point(322, 18);
             btnT.Name = "btnT";
             btnT.Size = new Size(50, 50);
             btnT.TabIndex = 13;
@@ -347,7 +351,7 @@
             btnR.FlatStyle = FlatStyle.Flat;
             btnR.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnR.ForeColor = SystemColors.ControlLightLight;
-            btnR.Location = new Point(239, 19);
+            btnR.Location = new Point(266, 18);
             btnR.Name = "btnR";
             btnR.Size = new Size(50, 50);
             btnR.TabIndex = 12;
@@ -363,7 +367,7 @@
             btnE.FlatStyle = FlatStyle.Flat;
             btnE.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnE.ForeColor = SystemColors.ControlLightLight;
-            btnE.Location = new Point(183, 19);
+            btnE.Location = new Point(210, 18);
             btnE.Name = "btnE";
             btnE.Size = new Size(50, 50);
             btnE.TabIndex = 11;
@@ -379,7 +383,7 @@
             btnW.FlatStyle = FlatStyle.Flat;
             btnW.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnW.ForeColor = SystemColors.ControlLightLight;
-            btnW.Location = new Point(127, 19);
+            btnW.Location = new Point(154, 18);
             btnW.Name = "btnW";
             btnW.Size = new Size(50, 50);
             btnW.TabIndex = 10;
@@ -395,7 +399,7 @@
             btnQ.FlatStyle = FlatStyle.Flat;
             btnQ.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnQ.ForeColor = SystemColors.ControlLightLight;
-            btnQ.Location = new Point(71, 19);
+            btnQ.Location = new Point(98, 18);
             btnQ.Name = "btnQ";
             btnQ.Size = new Size(50, 50);
             btnQ.TabIndex = 9;
@@ -411,7 +415,7 @@
             btnL.FlatStyle = FlatStyle.Flat;
             btnL.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnL.ForeColor = SystemColors.ControlLightLight;
-            btnL.Location = new Point(547, 75);
+            btnL.Location = new Point(574, 74);
             btnL.Name = "btnL";
             btnL.Size = new Size(50, 50);
             btnL.TabIndex = 8;
@@ -427,7 +431,7 @@
             btnK.FlatStyle = FlatStyle.Flat;
             btnK.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnK.ForeColor = SystemColors.ControlLightLight;
-            btnK.Location = new Point(491, 75);
+            btnK.Location = new Point(518, 74);
             btnK.Name = "btnK";
             btnK.Size = new Size(50, 50);
             btnK.TabIndex = 7;
@@ -443,7 +447,7 @@
             btnJ.FlatStyle = FlatStyle.Flat;
             btnJ.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnJ.ForeColor = SystemColors.ControlLightLight;
-            btnJ.Location = new Point(435, 75);
+            btnJ.Location = new Point(462, 74);
             btnJ.Name = "btnJ";
             btnJ.Size = new Size(50, 50);
             btnJ.TabIndex = 6;
@@ -459,7 +463,7 @@
             btnH.FlatStyle = FlatStyle.Flat;
             btnH.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnH.ForeColor = SystemColors.ControlLightLight;
-            btnH.Location = new Point(379, 75);
+            btnH.Location = new Point(406, 74);
             btnH.Name = "btnH";
             btnH.Size = new Size(50, 50);
             btnH.TabIndex = 5;
@@ -475,7 +479,7 @@
             btnG.FlatStyle = FlatStyle.Flat;
             btnG.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnG.ForeColor = SystemColors.ControlLightLight;
-            btnG.Location = new Point(323, 75);
+            btnG.Location = new Point(350, 74);
             btnG.Name = "btnG";
             btnG.Size = new Size(50, 50);
             btnG.TabIndex = 4;
@@ -491,7 +495,7 @@
             btnF.FlatStyle = FlatStyle.Flat;
             btnF.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnF.ForeColor = SystemColors.ControlLightLight;
-            btnF.Location = new Point(266, 75);
+            btnF.Location = new Point(293, 74);
             btnF.Name = "btnF";
             btnF.Size = new Size(50, 50);
             btnF.TabIndex = 3;
@@ -507,7 +511,7 @@
             btnD.FlatStyle = FlatStyle.Flat;
             btnD.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnD.ForeColor = SystemColors.ControlLightLight;
-            btnD.Location = new Point(210, 75);
+            btnD.Location = new Point(237, 74);
             btnD.Name = "btnD";
             btnD.Size = new Size(50, 50);
             btnD.TabIndex = 2;
@@ -523,7 +527,7 @@
             btnS.FlatStyle = FlatStyle.Flat;
             btnS.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnS.ForeColor = SystemColors.ControlLightLight;
-            btnS.Location = new Point(154, 75);
+            btnS.Location = new Point(181, 74);
             btnS.Name = "btnS";
             btnS.Size = new Size(50, 50);
             btnS.TabIndex = 1;
@@ -539,7 +543,7 @@
             btnA.FlatStyle = FlatStyle.Flat;
             btnA.Font = new Font("Castellar", 15.75F, FontStyle.Bold);
             btnA.ForeColor = SystemColors.ControlLightLight;
-            btnA.Location = new Point(98, 75);
+            btnA.Location = new Point(125, 74);
             btnA.Name = "btnA";
             btnA.Size = new Size(50, 50);
             btnA.TabIndex = 0;

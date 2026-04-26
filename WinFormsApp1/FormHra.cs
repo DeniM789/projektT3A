@@ -42,7 +42,7 @@ namespace WinFormsApp1
         {
 
             Graphics g = e.Graphics;
-            Pen p = new Pen(Color.Black, 2);
+            Pen p = new Pen(Color.White, 2);
 
             int chyby = 10 - zivoty;
 
